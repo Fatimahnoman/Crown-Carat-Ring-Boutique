@@ -3,9 +3,9 @@ import Homepage from "@/components/Homepage";
 import "aos/dist/aos.css"; // Import AOS CSS
 import AOS from "aos";
 import { useEffect } from "react";
-import About from "./about/page";
-import Contact from "./contact/page";
-import Ring from "./ring/page";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Ring from "@/components/Ring";
  
 
 
