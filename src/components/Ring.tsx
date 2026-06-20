@@ -1,10 +1,6 @@
-"use client";
 import React from 'react';
-import { useCart } from '@/context/CartContext';
 
 const RingComponent = () => {
-  const { addToCart } = useCart();
-
   const RingPic = [
     { id: 1, name: 'Lunar Elegance', price: 35000, image: '/r1.jpg' },
     { id: 2, name: 'Ethereal Gleam', price: 30000, image: '/r12.jpg' },
@@ -28,7 +24,7 @@ const RingComponent = () => {
             <img src={rings.image} alt={rings.name} />
             <h3>{rings.name}</h3>
             <div>${rings.price.toLocaleString()}</div>
-            <button onClick={() => addToCart(rings)}>Add to Cart</button>
+            <button>Add to Cart</button>
           </div>
         ))}
       </div>
