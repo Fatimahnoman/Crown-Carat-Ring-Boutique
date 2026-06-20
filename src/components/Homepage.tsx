@@ -11,7 +11,7 @@ const Homepage = () => {
 
   return (
     <div>
-        <section className='hero' style={{backgroundImage: "url(rf3.jpg)",  }}  > 
+        <section className='hero' style={{backgroundImage: "url(/rf3.jpg)",  }}  > 
           <div data-aos="zoom-in-up">
             <h1 className='hed'>
                 Welcome to
