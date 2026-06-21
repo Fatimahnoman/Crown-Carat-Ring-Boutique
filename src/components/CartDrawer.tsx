@@ -73,7 +73,7 @@ export default function CartDrawer() {
         <input type="hidden" name="_subject"  value="🛒 New Order - Crown & Carat!" />
         <input type="hidden" name="_captcha"  value="false" />
         <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_next"     value="http://localhost:3000/thank-you" />
+        <input type="hidden" name="_next"     value="https://crown-carat-ring-boutique.vercel.app/thank-you" />
         <input type="hidden" name="Customer_Name"    defaultValue="" />
         <input type="hidden" name="Customer_Email"   defaultValue="" />
         <input type="hidden" name="Customer_Phone"   defaultValue="" />
